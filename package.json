@@ -1,7 +1,7 @@
 {
   "homepage": "https://lhsola.github.io/",
   "name": "wedding-card",
-  "version": "0.1.0",
+  "version": "0.1.0",  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
