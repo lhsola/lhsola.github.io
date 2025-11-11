@@ -27,7 +27,8 @@ function Cover() {
 
   return (
     <div className="cover__container">
-      <img className="cover__main-photo" src={mainPhoto} alt="weddingcouple" />
+      {/* <img className="cover__main-photo" src={mainPhoto} alt="weddingcouple" /> */}
+      <img src={mainPhoto} alt="weddingcouple" />
       <div className="cover__overlay">
         <div className='cover__person'>
           <div>최명현</div>
