@@ -44,12 +44,12 @@ function App() {
     <div className="App">
       {isModalOpen && <SurveyModal closeModal={closeModal} />}
       <Cover/>
+      <Location />
       <Invitation />
       <Calendar />
       <ImgGallery />
-      <Location />
       {/* <Submit openModal={openModal}/> */}
-      <Quiz/>
+      {/* <Quiz/> */}
       <Contact />
       <Comment />
       <Footer />
