@@ -37,18 +37,18 @@ function Cover() {
         </div>
         <div className='cover__date'>2026년 4월 25일 토요일 낮 12시</div>
         <div className='cover__place'>디토 레스토랑 (서초)</div>
-        {/* <div className='cover__line'></div> */}
-        {/* <div className='cover__icon-box'>
-          <TbPlayerTrackPrevFilled size="1.5em"/>
-          <TbPlayerSkipBackFilled size="1.5em"/>
-          {isPlaying ? (
+        {/* <div className='cover__line'></div>  */}
+         <div className='cover__icon-box'>
+          {/* <TbPlayerTrackPrevFilled size="1.5em"/> */}
+          {/* <TbPlayerSkipBackFilled size="1.5em"/> */}
+          {/* {isPlaying ? (
             <BsStopCircle size="3em" className='cover__music-btn' onClick={togglePlay} aria-label="Stop Music"/>
           ) : (
             <BsPlayCircle size="3em" className='cover__music-btn' onClick={togglePlay} aria-label="Play Music"/>
-          )}
-          <TbPlayerSkipForwardFilled size="1.5em"/>
-          <TbPlayerTrackNextFilled size="1.5em"/>
-        </div> */}
+          )} */}
+          {/* <TbPlayerSkipForwardFilled size="1.5em"/> */}
+          {/* <TbPlayerTrackNextFilled size="1.5em"/> */}
+        </div> 
       </div>
     </div>
 
