@@ -23,36 +23,35 @@ function Location() {
   }, []);
 
   const gotoNavermap = () => {
-    window.location.href = ''
+    window.open("https://map.naver.com/v5/search/서초%20디토%20레스토랑","_blank");
   }
 
   const gotoKakaomap = () => {
-    window.location.href = ''
+     window.open("https://map.kakao.com/?urlX=500937.99999999907&urlY=1107307.9999999981&urlLevel=3&itemId=1706770960&q=%EB%94%94%ED%86%A0%20%EC%84%9C%EC%B4%88%EC%A0%90&srcid=1706770960&map_type=TYPE_MAP","_blank");
   }
   
-
   return (
     <div className='container'>
-    <div className='title'>오시는 길</div>
-    <div className='location__details'>
-      <div>서초 디토 레스토랑</div>
-      <div>서울 서초구 명달로 94</div>
+      <div className='title'>오시는 길</div>
+      <div className='location__details'>
+        <div>서초 디토 레스토랑</div>
+        <div>서울 서초구 명달로 94</div>
+      </div>
+      <div ref={mapRef} className='location__map'></div>
+      <div className='location__map-icon-box'>
+          <div className='location__map-item' onClick={gotoNavermap}>
+            <img src={naverMapIcon} className='location__map-icon' alt="naverMap"/>
+            <span>네이버지도</span>
+          </div>
+          <div className='location__map-item' onClick={gotoKakaomap}>
+            <img src={kakaoMapIcon} className='location__map-icon' alt='kakaoMap'/>
+            <span>카카오지도</span>
+          </div>
+      </div>
+      {/* <div className='location__info'>
+        <div>선릉역 5번 출구에서 580m</div>
+      </div> */}
     </div>
-    <div ref={mapRef} className='location__map'></div>
-    <div className='location__map-icon-box'>
-        <div className='location__map-item' onClick={gotoNavermap}>
-          <img src={naverMapIcon} className='location__map-icon' alt="naverMap"/>
-          <span>네이버지도</span>
-        </div>
-        <div className='location__map-item' onClick={gotoKakaomap}>
-          <img src={kakaoMapIcon} className='location__map-icon' alt='kakaoMap'/>
-          <span>카카오지도</span>
-        </div>
-    </div>
-   {/* <div className='location__info'>
-    <div>선릉역 5번 출구에서 580m</div>
-   </div> */}
-</div>
   )
 }
 
