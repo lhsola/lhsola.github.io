@@ -9,7 +9,7 @@
 
   .location__map-icon-box {
     padding: 5px 0;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     width: 340px;
     display: flex;
     justify-content: space-around;

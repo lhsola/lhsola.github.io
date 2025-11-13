@@ -45,6 +45,7 @@ function App() {
       {isModalOpen && <SurveyModal closeModal={closeModal} />}
       <Cover/>
       <Location />
+      <ShareButton />
       <Invitation />
       <Calendar />
       <ImgGallery />
@@ -52,7 +53,6 @@ function App() {
       {/* <Quiz/> */}
       <Contact />
       <Comment />
-        <ShareButton />
       {/* <Footer /> */}
     </div>
   );

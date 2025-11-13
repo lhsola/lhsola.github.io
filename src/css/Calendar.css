@@ -42,12 +42,13 @@
     position: relative;
     font-weight: bold;  
     color: black;
+    font-weight: bold;
   }
   
   .calendar__day.heart::after {
     content: '\2665'; /* 유니코드 하트 문자 */
     font-size: 70px;
-    color: #fd7e576c;
+    color: #f0b09c6c;
     position: absolute;
     top: 50%;
     left: 50%;
