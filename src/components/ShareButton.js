@@ -23,7 +23,7 @@ function ShareButton() {
       objectType: "feed",
       content: {
         title: "🤵🏻❤️👰🏻 결혼식에 초대합니다.",
-        description: "4월 25일 12시 서초 디토 레스토랑",
+        description: "4월 25일 12시 서초 디토레스토랑",
         imageUrl: "https://lhsola.github.io/main.jpg", // ✅ 썸네일 이미지 주소
         link: {
           mobileWebUrl: "https://lhsola.github.io",

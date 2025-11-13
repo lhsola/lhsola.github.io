@@ -34,7 +34,7 @@ function Location() {
     <div className='container'>
       <div className='title'>오시는 길</div>
       <div className='location__details'>
-        <div>서초 디토 레스토랑</div>
+        <div>서초 디토레스토랑</div>
         <div>서울 서초구 명달로 94</div>
       </div>
       <div ref={mapRef} className='location__map'></div>

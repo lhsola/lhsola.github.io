@@ -36,7 +36,7 @@ function Cover() {
           <div>이혜선</div>
         </div>
         <div className='cover__date'>2026년 4월 25일 토요일 12시</div>
-        <div className='cover__place'>디토 레스토랑 (서초)</div>
+        <div className='cover__place'>서초 디토레스토랑</div>
         {/* <div className='cover__line'></div>  */}
          <div className='cover__icon-box'>
           {/* <TbPlayerTrackPrevFilled size="1.5em"/> */}
