@@ -24,7 +24,7 @@ import SurveyModal from './components/SurveyModal.js';
 // import Submit from './pages/Submit.js';
 import Comment from './pages/Comment.js';
 import Quiz from './pages/Quiz.js';
-
+import ShareButton from "./components/ShareButton";
 
 
 function App() {
@@ -52,6 +52,7 @@ function App() {
       {/* <Quiz/> */}
       <Contact />
       <Comment />
+        <ShareButton />
       {/* <Footer /> */}
     </div>
   );
