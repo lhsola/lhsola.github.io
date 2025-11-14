@@ -23,7 +23,7 @@ function ShareButton() {
       objectType: "feed",
       content: {
         title: "명현❤️혜선 결혼식에 초대합니다.",
-        description: "4월 25일 12시\n서초 디토레스토랑\n서울 서초구 명달로 94",
+        description: "4월 25일 12시 <서초 디토레스토랑>\n서울 서초구 명달로 94",
         imageUrl: "https://lhsola.github.io/main.jpg", // ✅ 썸네일 이미지 주소
         link: {
           mobileWebUrl: "https://lhsola.github.io",
@@ -52,9 +52,10 @@ function ShareButton() {
         borderRadius: "8px",
         padding: "12px 20px",
         fontWeight: "bold",
-        fontSize: "16px",
+        fontSize: "22px",
         cursor: "pointer",
-        marginBottom:"30px"
+        marginBottom: "30px",
+        fontFamily: 'GangwonEdu'
       }}
     >
       💛 카카오톡으로 공유하기

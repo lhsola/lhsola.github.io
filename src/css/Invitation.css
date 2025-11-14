@@ -38,6 +38,7 @@
     background-color: transparent;
     border-radius: 30px;
     padding: 10px 50px;
+    color: black;
   }
 
   .invitation__btn-contact:hover {

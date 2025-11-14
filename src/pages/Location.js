@@ -57,17 +57,17 @@ function Location() {
           <span>주차안내</span>
         </div>
         <div className='info-detail'>
-          <div>디토 레스토랑 건물 지하 1층</div>
+          <div>♥디토 레스토랑 건물 지하 1층</div>
         </div>
         <div className='info-item'>
           <img src={busIcon} alt="bus" className="info-icon"/>
           <span>대중교통 이용시</span>
         </div>
         <div className='info-detail'>
-          <div>서초역 4번출구 도보 13분</div>
-          <div>방배역 4번출구 도보 13분 </div>
-          <div>서초역 5번출구 서초13(마을버스)승차 → 2정거장이동 "더미켈란아파트역"하차</div>
-          <div>방배역 1번출구 서초13(마을버스)승차 → 3정거장이동 "더미켈란아파트역"하차</div>
+          <div>♥서초역 4번출구 도보 13분</div>
+          <div>♥방배역 4번출구 도보 13분 </div>
+          <div>♥서초역 5번출구 서초13(마을버스)승차 → 2정거장이동 "더미켈란아파트역"하차</div>
+          <div>♥방배역 1번출구 서초13(마을버스)승차 → 3정거장이동 "더미켈란아파트역"하차</div>
         </div>
       </div>
     </div>
