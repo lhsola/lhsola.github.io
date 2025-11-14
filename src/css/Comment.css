@@ -10,47 +10,56 @@
 .commment_content {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 30px 0;
+
+}
+.commment_content > div {
+    display: flex;
+    justify-content: space-between; /* 두 입력란 사이에 공간을 균등하게 배분 */
+    width: 340px; /* 전체 컨테이너 너비와 동일하게 설정 */
+    margin: 3px 0; /* 위아래 마진 설정 (기존 .commment_content input의 위아래 마진 대체) */
+    gap: 7px;
 }
 
 .commment_content input {
     font-size: large;
     font-family: 'GangwonEdu';
-    margin: 3px;
     padding: 10px;
-    width: 145px;
     border-radius: 5px;
-    /* background-color: transparent; */
     border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 50%;
+    box-sizing: border-box; 
+    margin: 3px 0;
 }
 
 .comment__line {
     background-color: rgba(0, 0, 0, 0.2);
     height: 2px;
     width: 340px;
-    margin: 20px 0;
+    margin: 0px 5px 5px 5px;
 }
 
 .comment__message {
-    margin-top: 5px;
+    margin-top:0px;
     padding: 10px;
-    width: 320px;
+    width: 340px;
     height: 60px;
     font-family: 'GangwonEdu';
     font-size: large;
     border: 1px solid rgb(179, 172, 172);
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .comment__btn {
     font-size: medium;
-    font-family: 'GangwonEdu';
     margin-top: 10px;
     background-color: rgb(246, 210, 216);
     border: 1px solid rgb(246, 210, 216);
     border-radius: 5px;
     padding: 8px 0;
     width: 340px;
+    box-sizing: border-box;
 }
 
 .comment__btn:hover {

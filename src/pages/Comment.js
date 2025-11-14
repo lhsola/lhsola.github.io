@@ -135,7 +135,7 @@ function Comment() {
             />
             <button className='comment__btn' onClick={onCommentSubmit}>메시지 작성하기</button>
         </div>
-        {/* <div className='comment__line'></div> */}
+        <div className='comment__line'></div>
         <div className='comment__container-data'>
                 {comItemList.slice(0, visibleComments).map((commentItem) => (
                     <div className='comment__data' key={commentItem.id}>
