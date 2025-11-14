@@ -36,6 +36,34 @@ function ImgGallery() {
       original: p5,
       thumbnail: s5,
     },
+       {
+      original: p5,
+      thumbnail: s5,
+    },   
+    {
+      original: p5,
+      thumbnail: s5,
+    },   
+    {
+      original: p5,
+      thumbnail: s5,
+    },   
+    {
+      original: p5,
+      thumbnail: s5,
+    },   
+    {
+      original: p5,
+      thumbnail: s5,
+    },   
+    {
+      original: p5,
+      thumbnail: s5,
+    },   
+    {
+      original: p5,
+      thumbnail: s5,
+    },   
   ];
 
   

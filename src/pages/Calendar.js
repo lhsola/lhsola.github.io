@@ -7,10 +7,13 @@ function CalendarDay({ day, isWeddingDay, isHoliday ,firstDayOfWeek }) {
   const dayOfWeekClass = dayOfWeek === 0 ? 'red' : dayOfWeek === 6 ? 'blue' : '';
   // const dayOfWeekClass = day % 7 === 1 ? 'red' : day % 7 === 4 ? 'blue' : '';
   const holidayClass = isHoliday ? 'red' : '';
-  const specialDayClass = isWeddingDay ? 'heart black' : '';
+  const specialDayClass = isWeddingDay ? 'heart red' : '';
 
   return (
-    <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass}`}>
+    // <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass}`}>
+    //   {day}
+    // </div>
+    <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass} ${isWeddingDay ? 'wedding-day-text' : ''}`}>
       {day}
     </div>
   );

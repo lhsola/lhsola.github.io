@@ -52,7 +52,6 @@ function Location() {
           </div>
       </div>
       <div className='location__info'>
-        {/* <div>주차안내</div> */}
         <div className='info-item'>
           <img src={carIcon} alt="car" className="info-icon" />
           <span>주차안내</span>
@@ -67,7 +66,7 @@ function Location() {
         <div className='info-detail'>
           <div>서초역 4번출구 도보 13분</div>
           <div>방배역 4번출구 도보 13분 </div>
-          <div>서초역 5번출구 서초13(마을버스)승차 → 3정거장이동 "더미켈란아파트역"하차</div>
+          <div>서초역 5번출구 서초13(마을버스)승차 → 2정거장이동 "더미켈란아파트역"하차</div>
           <div>방배역 1번출구 서초13(마을버스)승차 → 3정거장이동 "더미켈란아파트역"하차</div>
         </div>
       </div>

@@ -38,17 +38,23 @@
     position: relative; /* 상대 위치 설정 */
   }
   
+   .wedding-day-text {
+    color: black !important;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+}
+
   .calendar__day.heart {
     position: relative;
     font-weight: bold;  
-    color: black;
     font-weight: bold;
   }
   
   .calendar__day.heart::after {
     content: '\2665'; /* 유니코드 하트 문자 */
     font-size: 70px;
-    color: #f0b09c6c;
+    color:  #c565486c;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -78,3 +84,5 @@
     color: rgb(218, 82, 82);
     font-weight: bold;
   }
+
+ 
