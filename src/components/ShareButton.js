@@ -54,7 +54,7 @@ function ShareButton() {
         fontWeight: "bold",
         fontSize: "16px",
         cursor: "pointer",
-        marginBottom:"25px"
+        marginBottom:"30px"
       }}
     >
       💛 카카오톡으로 공유하기

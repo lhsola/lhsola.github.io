@@ -54,7 +54,7 @@
   .calendar__day.heart::after {
     content: '\2665'; /* 유니코드 하트 문자 */
     font-size: 70px;
-    color:  #c565486c;
+    color:  #f5c1b16c;
     position: absolute;
     top: 50%;
     left: 50%;

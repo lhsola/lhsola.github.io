@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react'
 import naverMapIcon from '../images/naver.webp';
 import kakaoMapIcon from '../images/kakao.png';
 import carIcon from '../images/car.png';
-import transferIcon from '../images/transfer.png';
+import busIcon from '../images/bus.png';
 import { TbBoxPadding } from 'react-icons/tb';
 
 function Location() {
@@ -53,14 +53,14 @@ function Location() {
       </div>
       <div className='location__info'>
         <div className='info-item'>
-          <img src={carIcon} alt="car" className="info-icon" />
+          <img src={carIcon} alt="car" className="info-icon"/>
           <span>주차안내</span>
         </div>
         <div className='info-detail'>
           <div>디토 레스토랑 건물 지하 1층</div>
         </div>
         <div className='info-item'>
-          <img src={transferIcon} alt="bus" className="info-icon" />
+          <img src={busIcon} alt="bus" className="info-icon"/>
           <span>대중교통 이용시</span>
         </div>
         <div className='info-detail'>
