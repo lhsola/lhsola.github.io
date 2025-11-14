@@ -41,15 +41,34 @@
   }
 
   .location__info {
-    width: 300px;
+    width: 310px;
     text-align: left;
     font-size: x-large;
+    margin-top: 25px;
   }
 
   .location__info div {
     margin-bottom: 7px;
+    font-size: 20px;
   }
 
-  .bold {
+  .info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+.info-item .info-icon {
+  width: 25px;   /* 아이콘 작게 */
+  height: 25px;
+  margin-right: 5px;
+}
+
+.info-detail {
+  margin-left: 23px;  /* ← 들여쓰기 */
+}
+
+.bold {
     font-weight: bold;
-  }
+}
