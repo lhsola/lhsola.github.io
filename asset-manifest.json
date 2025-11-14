@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7c3e896.css",
-    "main.js": "/static/js/main.e3ce1942.js",
+    "main.css": "/static/css/main.6838f919.css",
+    "main.js": "/static/js/main.156f8dd1.js",
     "static/js/787.d00bc756.chunk.js": "/static/js/787.d00bc756.chunk.js",
     "static/media/photo.jpg": "/static/media/photo.620e2809992130060e41.jpg",
     "static/media/taeyeon_poem.mp3": "/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
@@ -22,12 +22,12 @@
     "static/media/s1.png": "/static/media/s1.7ffa9f05ab15c8c8c95e.png",
     "static/media/naver.webp": "/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/index.html",
-    "main.b7c3e896.css.map": "/static/css/main.b7c3e896.css.map",
-    "main.e3ce1942.js.map": "/static/js/main.e3ce1942.js.map",
+    "main.6838f919.css.map": "/static/css/main.6838f919.css.map",
+    "main.156f8dd1.js.map": "/static/js/main.156f8dd1.js.map",
     "787.d00bc756.chunk.js.map": "/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7c3e896.css",
-    "static/js/main.e3ce1942.js"
+    "static/css/main.6838f919.css",
+    "static/js/main.156f8dd1.js"
   ]
 }
