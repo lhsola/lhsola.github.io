@@ -50,11 +50,11 @@ function Cover() {
         <img 
           src={mainPhoto} 
           alt="wedding couple" 
-           onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/1080x1920/D3CFCF/696666?text=Image+Load+Error"; }}
+          //  onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/1080x1920/D3CFCF/696666?text=Image+Load+Error"; }}
         />
         <div className="cover__overlay">
           <div className='cover__person'>
-            <div>명현</div>
+            <div>최명현</div>
             {/* Heart 아이콘에 fill 속성을 사용하여 색상 적용 */}
            <GoHeartFill className='cover__icon-heart' size="0.8em"/>
             <div>이혜선</div>
