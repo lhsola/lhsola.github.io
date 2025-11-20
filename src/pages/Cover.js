@@ -15,22 +15,18 @@ function Cover() {
   };
 
   // 모바일 100vh 문제 해결 로직
-  useEffect(() => {
-    // 현재 뷰포트 높이를 계산하여 CSS 변수(--app-height)로 설정하는 함수
-    const setAppHeight = () => {
-      const vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--app-height', `${vh * 100}px`);
-    };
+ useEffect(() => {
+  const setVh = () => {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  };
 
-    // 초기 높이 설정 및 resize 이벤트 리스너 등록
-    setAppHeight();
-    window.addEventListener('resize', setAppHeight);
-    
-    // 컴포넌트 언마운트 시 리스너 제거
-    return () => {
-      window.removeEventListener('resize', setAppHeight);
-    };
-  }, []);
+  setVh();
+
+  window.addEventListener('resize', setVh);
+  return () => window.removeEventListener('resize', setVh);
+}, []);
+
 
 
   useEffect(() => {
@@ -47,22 +43,16 @@ function Cover() {
 
 
       <div className="cover__container">
-        <img 
-          src={mainPhoto} 
-          alt="wedding couple" 
-          //  onError={(e) => { e.target.onerror = null; e.target.src = "https://placehold.co/1080x1920/D3CFCF/696666?text=Image+Load+Error"; }}
-        />
+        <img src={mainPhoto} alt="wedding couple" />
         <div className="cover__overlay">
           <div className='cover__person'>
-            <div>최명현</div>
+            <div>명현</div>
             {/* Heart 아이콘에 fill 속성을 사용하여 색상 적용 */}
            <GoHeartFill className='cover__icon-heart' size="0.8em"/>
             <div>이혜선</div>
           </div>
           <div className='cover__date'>2026년 4월 25일 토요일 12시</div>
-          <div className='cover__place'>서초 디토레스토랑</div>
-          
-
+          <div className='cover__place'>서초 디토레스토랑</div>          
         </div>
       </div>
 

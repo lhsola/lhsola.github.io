@@ -1,15 +1,14 @@
-:root {
-  --app-height: 100vh;
-}
+
 
 .cover__container {
- height: var(--app-height); /* JS로 계산된 픽셀 높이를 사용 */
+  height: calc(var(--vh, 1vh) * 100);
   /* height: 100vh; */
-  /* width: 100%; */
+
   width: 100vw;
   overflow: hidden;
   position: relative;
 }
+
 
 .cover__container img {
   position: absolute;
