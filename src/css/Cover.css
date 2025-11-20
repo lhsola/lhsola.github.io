@@ -1,8 +1,8 @@
 
 
 .cover__container {
-  height: calc(var(--vh, 1vh) * 100);
-  /* height: 100vh; */
+  /* height: calc(var(--vh, 1vh) * 100); */
+  height: 100vh;
 
   width: 100vw;
   overflow: hidden;
@@ -11,14 +11,21 @@
 
 
 .cover__container img {
-  position: absolute;
+    position: fixed;      /* ← 요게 핵심 */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  transform: none !important;   /* 강제로 무변형 */
+  /* position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;       /* 화면 꽉 채우기 */
-  display: block;
-  transform: scale(1);     /* 확대 없이 고정 */
-  transition: none;
-  will-change: transform;  /* GPU 가속 안정화 */
+  /* display: block; */
+  /* transform: scale(1);     확대 없이 고정 */
+  /* transition: none; */
+  /* will-change: transform;  GPU 가속 안정화 */ 
 }
 
 .cover__main-photo {
