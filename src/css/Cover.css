@@ -15,7 +15,7 @@
    /* display: block; */
    /* transform: scale(1); */    /*확대 없이 고정 */
   /*  transition: none; */
-   /* will-change: transform; */ /*GPU 가속 안정화 */  */
+   /* will-change: transform; */ /*GPU 가속 안정화 */  
 }
 
 .cover__main-photo {
