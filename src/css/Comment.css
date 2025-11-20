@@ -60,6 +60,8 @@
     padding: 8px 0;
     width: 340px;
     box-sizing: border-box;
+    font-family: 'GangwonEdu';
+    font-size: 20px;
 }
 
 .comment__btn:hover {
@@ -142,6 +144,8 @@
     background-color: transparent;
     border: 1px solid rgb(204, 200, 200);
     border-radius: 5px;
+    font-family: 'GangwonEdu';
+    font-size: 15px;
 }
 
 .comment__btn-more:hover {
