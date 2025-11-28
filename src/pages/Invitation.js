@@ -30,10 +30,10 @@ function Invitation() {
         <img src={flower} className='flower' alt='flower'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
-          <div>지금까지 소중한 인연을 지켜왔습니다.</div>
-          <div>앞으로 남은 인생은 가족이 되어 </div>
-          <div>같은 곳을 바라보며</div>
-          <div>함께 걷고자 합니다.</div>
+          <div>명백해진 마음으로</div>
+          <div>현명하게 서로를 선택하여</div>
+          <div>혜안 같은 믿음을 쌓아</div>
+          <div>선한 마음으로 함께 걷고자합니다.</div>
           <div>두 사람의 새로운 시작을 </div>
           <div>함께 축복해주시면 감사하겠습니다. </div>
         </div>
