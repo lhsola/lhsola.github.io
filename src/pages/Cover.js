@@ -15,17 +15,17 @@ function Cover() {
   };
 
   // 모바일 100vh 문제 해결 로직
- useEffect(() => {
-  const setVh = () => {
-    const vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-  };
+//  useEffect(() => {
+//   const setVh = () => {
+//     const vh = window.innerHeight * 0.01;
+//     document.documentElement.style.setProperty('--vh', `${vh}px`);
+//   };
 
-  setVh();
+//   setVh();
 
-  window.addEventListener('resize', setVh);
-  return () => window.removeEventListener('resize', setVh);
-}, []);
+//   window.addEventListener('resize', setVh);
+//   return () => window.removeEventListener('resize', setVh);
+// }, []);
 
 
 
@@ -40,7 +40,6 @@ function Cover() {
   }, [isPlaying]);
 
  return (
-
 
       <div className="cover__container">
         <img src={mainPhoto} alt="wedding couple" />
