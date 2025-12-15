@@ -25,15 +25,15 @@ function Invitation() {
       </div>
     )
   }
-  return (
+  return (  
     <div className='bc-pink container'>
         <img src={flower} className='flower' alt='flower'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
-          <div>명백해진 마음으로</div>
-          <div>현명하게 서로를 선택하여</div>
-          <div>혜안 같은 믿음을 쌓아</div>
-          <div>선한 마음으로 함께 걷고자합니다.</div>
+          <div><span className="invitation__initial">명</span>백해진 마음으로</div>
+          <div><span className="invitation__initial">현</span>명한 선택 앞에 서로를 마주하고</div>
+          <div><span className="invitation__initial">혜</span>심으로 다름을 품으며</div>
+          <div><span className="invitation__initial">선</span>택한 길을 함께 걷고자 합니다.</div>
           <div>두 사람의 새로운 시작을 </div>
           <div>함께 축복해주시면 감사하겠습니다. </div>
         </div>

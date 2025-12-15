@@ -10,6 +10,10 @@
     margin-bottom: 20px;
   }
 
+  .invitation__initial {
+    font-weight: bold;
+  }
+  
   .invitation__content div{
     font-size: x-large;
     margin-bottom: 10px;
