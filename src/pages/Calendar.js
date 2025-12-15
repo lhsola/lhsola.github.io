@@ -5,17 +5,10 @@ import flower from '../images/flower.png'
 function CalendarDay({ day, isWeddingDay, isHoliday ,firstDayOfWeek }) {
   const dayOfWeek = (firstDayOfWeek + day - 1) % 7;
   const dayOfWeekClass = dayOfWeek === 0 ? 'red' : dayOfWeek === 6 ? 'blue' : '';
-  // const dayOfWeekClass = day % 7 === 1 ? 'red' : day % 7 === 4 ? 'blue' : '';
   const holidayClass = isHoliday ? 'red' : '';
   const specialDayClass = isWeddingDay ? 'heart red' : '';
 
   return (
-    // <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass}`}>
-    //   {day}
-    // </div>
-    // <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass} ${isWeddingDay ? 'wedding-day-text' : ''}`}>
-    //   {day}
-    // </div>
     <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass}`}>
       <span className={isWeddingDay ? 'wedding-day-text' : ''}>{day}</span>
     </div>

@@ -30,11 +30,11 @@ function Invitation() {
         <img src={flower} className='flower' alt='flower'/>
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
-          <div><span className="invitation__initial">명</span>백해진 마음으로</div>
-          <div><span className="invitation__initial">현</span>명한 선택을 마주한 두 사람이</div>
+          <div><span className="invitation__initial">명</span>확해진 사랑으로</div>
+          <div><span className="invitation__initial">현</span>명하게 서로를 선택한 두 사람이</div>
           {/* 현명한 선택 앞에 서로를 마주하고 선택을 마주한 두 사람이 */}
-          <div><span className="invitation__initial">혜</span>심으로 서로다름을 품으며</div>
-          <div><span className="invitation__initial">선</span>택한 길을 함께 걷고자 합니다.</div>
+          <div><span className="invitation__initial">혜</span>심으로 서로의 다름을 품으며</div>
+          <div><span className="invitation__initial">선</span>한마음으로 평생을 함께하고자 합니다.</div>
           <div>두 사람의 새로운 시작을 </div>
           <div>함께 축복해주시면 감사하겠습니다. </div>
         </div>
