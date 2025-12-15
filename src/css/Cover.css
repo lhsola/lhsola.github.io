@@ -33,6 +33,7 @@
 }
   
 .cover__overlay {
+  
     position: absolute;
   bottom: 30px;        
   left: 50%;
@@ -50,6 +51,7 @@
     font-size: xx-large;
     font-weight: bold;
     margin-bottom: 10px;
+    white-space: nowrap;
   }
   
   @keyframes heartbeat {
@@ -73,11 +75,13 @@
   .cover__date {
     margin-top: 8px;
     font-size: x-large;
+    white-space: nowrap;
   }
 
   .cover__place {
     margin-top: 8px;
     font-size: x-large;
+    white-space: nowrap;
   }
   
   @keyframes playAnimation {
