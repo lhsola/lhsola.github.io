@@ -58,7 +58,7 @@
   .cover__icon-heart {
     animation: heartbeat 1s infinite; 
     margin: 0 15px;
-    color: rgb(253, 55, 170);
+    color: rgb(252, 99, 188);
   }
   
   .cover__date {

@@ -41,7 +41,7 @@
   }
   
    .wedding-day-text {
-    color: black ;
+    color: white ;
     font-weight: bold;
     z-index: 2;
     position: relative;
@@ -56,9 +56,10 @@
   
   .calendar__day.heart::after {
     content: '\2665'; /* 유니코드 하트 문자 */
-    font-size: 75px;
+    font-size: 70px;
     /* color:  #f5c1b16c; */
-    color: rgba(245, 193, 177, 0.5);
+    /* color: rgba(245, 193, 177, 0.5); */
+    color:  red;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,11 +73,6 @@
   
   .blue {
     color: blue;
-  }
-
-   .dday {
-    color: black;
-    font-weight: bold;
   }
 
   .calendar__remain {
