@@ -1,12 +1,12 @@
 .cover__container {
-  /* height: calc(var(--vh, 1vh) * 100); */
+  height: calc(var(--vh, 1vh) * 100);
   /* height: 100lvh;
   width: 100%;
   overflow: hidden;
   position: relative; */
-    position: relative;
+  position: relative;
   width: 100%;
-  height: 100vh; /* 화면 전체 높이 */
+  /*height: 100vh;  화면 전체 높이 */
   overflow: hidden;
 }
 
@@ -17,13 +17,13 @@
   height: 100%;
   object-fit: cover;       /* 화면 꽉 채우기 */
   display: block; 
-  transform: scale(1);    /*확대 없이 고정 */
+  /*transform: scale(1);    확대 없이 고정 */
   /*  transition: none; */
    /* will-change: transform; */ /*GPU 가속 안정화 */  
 }
 
 .cover__main-photo {
- width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   /* filter: brightness(70%); 사진 어둡게 (글씨 잘 보이게) */
@@ -33,8 +33,7 @@
 }
   
 .cover__overlay {
-  
-    position: absolute;
+  position: absolute;
   bottom: 30px;        
   left: 50%;
   transform: translateX(-50%); 
