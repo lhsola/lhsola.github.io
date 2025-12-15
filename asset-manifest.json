@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffee1bbc.css",
+    "main.css": "/static/css/main.ecb7c3ef.css",
     "main.js": "/static/js/main.e8dcceaa.js",
     "static/js/787.d00bc756.chunk.js": "/static/js/787.d00bc756.chunk.js",
     "static/media/taeyeon_poem.mp3": "/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
@@ -26,12 +26,12 @@
     "static/media/flower.png": "/static/media/flower.a5552bcf0b139bec2fbd.png",
     "static/media/naver.webp": "/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/index.html",
-    "main.ffee1bbc.css.map": "/static/css/main.ffee1bbc.css.map",
+    "main.ecb7c3ef.css.map": "/static/css/main.ecb7c3ef.css.map",
     "main.e8dcceaa.js.map": "/static/js/main.e8dcceaa.js.map",
     "787.d00bc756.chunk.js.map": "/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffee1bbc.css",
+    "static/css/main.ecb7c3ef.css",
     "static/js/main.e8dcceaa.js"
   ]
 }
