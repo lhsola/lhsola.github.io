@@ -12,7 +12,7 @@
 
   .invitation__initial {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 25px;
   }
 
   .invitation__content div{
@@ -37,13 +37,13 @@
 
   .invitation__btn-contact {
     font-family: 'GangwonEdu';
-    font-size: x-large;
+    font-size: 23px;
     margin-top: 0px;
     border: 1px solid rgb(134, 128, 128);
     background-color: transparent;
     border-radius: 30px;
     padding: 10px 50px;
-    color: black;
+    color: rgb(95, 25, 25);
   }
 
   .invitation__btn-contact:hover {

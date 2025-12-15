@@ -15,6 +15,7 @@
     max-width: 300px;
     margin: 0 auto;
   }
+  
   .calendar__weekdays {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -22,6 +23,7 @@
     margin-top: 20px;
     margin-bottom: 15px;
   }
+
   .calendar__weekdays span {
     font-weight: bold;
   }
@@ -39,11 +41,12 @@
   }
   
    .wedding-day-text {
-    color: black !important;
+    color: black ;
     font-weight: bold;
     z-index: 2;
     position: relative;
-}
+        size:  xx-large;
+  }
 
   .calendar__day.heart {
     position: relative;
@@ -53,8 +56,9 @@
   
   .calendar__day.heart::after {
     content: '\2665'; /* 유니코드 하트 문자 */
-    font-size: 70px;
-    color:  #f5c1b16c;
+    font-size: 75px;
+    /* color:  #f5c1b16c; */
+    color: rgba(245, 193, 177, 0.5);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -67,6 +71,11 @@
   
   .blue {
     color: blue;
+  }
+
+   .dday {
+    color: black;
+    font-weight: bold;
   }
 
   .calendar__remain {
