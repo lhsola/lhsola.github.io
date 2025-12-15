@@ -13,8 +13,11 @@ function CalendarDay({ day, isWeddingDay, isHoliday ,firstDayOfWeek }) {
     // <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass}`}>
     //   {day}
     // </div>
-    <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass} ${isWeddingDay ? 'wedding-day-text' : ''}`}>
-      {day}
+    // <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass} ${isWeddingDay ? 'wedding-day-text' : ''}`}>
+    //   {day}
+    // </div>
+    <div className={`calendar__day ${dayOfWeekClass} ${specialDayClass} ${holidayClass}`}>
+      <span className={isWeddingDay ? 'wedding-day-text' : ''}>{day}</span>
     </div>
   );
 }
