@@ -45,7 +45,7 @@ function Cover() {
         <img src={mainPhoto} alt="wedding couple"/>
         <div className="cover__overlay">
           <div className='cover__person'>
-            <div>최명현</div>
+            <div>명현</div>
             {/* Heart 아이콘에 fill 속성을 사용하여 색상 적용 */}
            <GoHeartFill className='cover__icon-heart' size="0.8em"/>
             <div>이혜선</div>
