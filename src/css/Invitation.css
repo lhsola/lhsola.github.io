@@ -12,8 +12,9 @@
 
   .invitation__initial {
     font-weight: bold;
+    font-size: x-large;
   }
-  
+
   .invitation__content div{
     font-size: x-large;
     margin-bottom: 10px;

@@ -31,7 +31,8 @@ function Invitation() {
         <div className='invitation__title'>초대합니다</div>
         <div className='invitation__content'>
           <div><span className="invitation__initial">명</span>백해진 마음으로</div>
-          <div><span className="invitation__initial">현</span>명한 선택 앞에 서로를 마주하고</div>
+          <div><span className="invitation__initial">현</span>명한 선택을 마주한 두 사람이</div>
+          {/* 현명한 선택 앞에 서로를 마주하고 선택을 마주한 두 사람이 */}
           <div><span className="invitation__initial">혜</span>심으로 다름을 품으며</div>
           <div><span className="invitation__initial">선</span>택한 길을 함께 걷고자 합니다.</div>
           <div>두 사람의 새로운 시작을 </div>
