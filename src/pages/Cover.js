@@ -15,17 +15,17 @@ function Cover() {
   };
 
   // 모바일 100vh 문제 해결 로직
- useEffect(() => {
-  const setVh = () => {
-    const vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-  };
+//  useEffect(() => {
+//   const setVh = () => {
+//     const vh = window.innerHeight * 0.01;
+//     document.documentElement.style.setProperty('--vh', `${vh}px`);
+//   };
 
-  setVh();
+//   setVh();
 
-  window.addEventListener('resize', setVh);
-  return () => window.removeEventListener('resize', setVh);
-}, []);
+//   window.addEventListener('resize', setVh);
+//   return () => window.removeEventListener('resize', setVh);
+// }, []);
 
 
 
@@ -49,7 +49,7 @@ function Cover() {
             <div>최명현</div>
             {/* Heart 아이콘에 fill 속성을 사용하여 색상 적용 */}
            <GoHeartFill className='cover__icon-heart' size="0.8em"/>
-            <div>이혜선</div>
+            <div>혜선</div>
           </div>
           <div className='cover__date'>2026년 4월 25일 토요일 12시</div>
           <div className='cover__place'>서초 디토레스토랑</div>          
