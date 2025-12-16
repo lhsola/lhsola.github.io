@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f28d3316.css",
-    "main.js": "/static/js/main.f22f60f2.js",
+    "main.js": "/static/js/main.c44e06e7.js",
     "static/js/787.d00bc756.chunk.js": "/static/js/787.d00bc756.chunk.js",
     "static/media/taeyeon_poem.mp3": "/static/media/taeyeon_poem.13d16db4a02836cf5d9d.mp3",
     "static/media/부크크명조_얇은글씨.woff": "/static/media/부크크명조_얇은글씨.4dd24ae27c5fa573aaf0.woff",
@@ -16,22 +16,22 @@
     "static/media/p5.jpg": "/static/media/p5.0cb257181dc59803ece7.jpg",
     "static/media/p4.jpg": "/static/media/p4.66d2d919fcaffd5cc8b6.jpg",
     "static/media/p12.jpg": "/static/media/p12.862f4aaf28e60bfd91a2.jpg",
-    "static/media/photo.jpg": "/static/media/photo.2c6de4f5a3edc8b90026.jpg",
     "static/media/p11.jpg": "/static/media/p11.76ed425416f5c945775b.jpg",
     "static/media/p6.jpg": "/static/media/p6.38e12d8bd2f05813e02d.jpg",
     "static/media/p7.jpg": "/static/media/p7.03e84dea48839900a572.jpg",
     "static/media/p8.jpg": "/static/media/p8.623dc0b1f24aaf81a4e4.jpg",
     "static/media/p3.jpg": "/static/media/p3.89ccb0d75b6cb2f4ed76.jpg",
     "static/media/p10.jpg": "/static/media/p10.32064697d583826a65ee.jpg",
+    "static/media/photo.jpg": "/static/media/photo.029c23f036817cfaa96e.jpg",
     "static/media/flower.png": "/static/media/flower.a5552bcf0b139bec2fbd.png",
     "static/media/naver.webp": "/static/media/naver.7717483eebafa7435918.webp",
     "index.html": "/index.html",
     "main.f28d3316.css.map": "/static/css/main.f28d3316.css.map",
-    "main.f22f60f2.js.map": "/static/js/main.f22f60f2.js.map",
+    "main.c44e06e7.js.map": "/static/js/main.c44e06e7.js.map",
     "787.d00bc756.chunk.js.map": "/static/js/787.d00bc756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f28d3316.css",
-    "static/js/main.f22f60f2.js"
+    "static/js/main.c44e06e7.js"
   ]
 }
