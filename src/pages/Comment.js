@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import db from '../firebase-config'; // Adjust the path as necessary
 import { collection, addDoc, getDocs, doc, deleteDoc, Timestamp,query,orderBy } from 'firebase/firestore';
+import flower from '../images/flower.png'
 
 function Comment() {
     const [name, setName] = useState('');
@@ -108,6 +109,7 @@ function Comment() {
 
   return (
     <div className='bc-pink container'>
+        <img src={flower} className='flower' alt='flower'/>
         <div className='title'>방명록</div>
         <div className='commment_content'>
             <div>

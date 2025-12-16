@@ -69,6 +69,12 @@
   margin-left: 15px;  /* ← 들여쓰기 */
 }
 
+
+.info-detail-desc {
+  margin-left: 3px;  /* ← 들여쓰기 */
+  white-space: nowrap;
+}
+
 .bold {
     font-weight: bold;
 }
