@@ -6,7 +6,7 @@ import busIcon from '../images/bus.png';
 import { TbBoxPadding } from 'react-icons/tb';
 import flower from '../images/flower.png'
 import ContactModal from '../components/ContactModal';
-import mapIcon from '../images/map_blue_icon.png';
+import mapIcon from '../images/map_brown_icon.png';
 
 function Location() {
   const mapRef = useRef(null);
@@ -84,7 +84,7 @@ function Location() {
         <div className='info-detail'>  
           <div className='display-flex-align-center' >
             <div>♥서초역 4번출구 *도보 12분*</div>
-            <img style={{paddingTop:'3px'}} src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapWalkSC}/>
+            <img src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapWalkSC}/>
           </div>   
           <div className='display-flex-align-center'>
             <div class="grid-box">
@@ -99,7 +99,7 @@ function Location() {
           </div>     
           <div className='display-flex-align-center' >
             <div> ♥방배역 4번출구 *도보 12분*</div>
-            <img style={{paddingTop:'2px'}} src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapWalkBB}/>
+            <img src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapWalkBB}/>
           </div>
           <div className='display-flex-align-center' >
             <div class="grid-box">
