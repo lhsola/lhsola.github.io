@@ -78,7 +78,7 @@
 
 .info-detail-desc {
   margin-left: 3px;  /* ← 들여쓰기 */
-  white-space: nowrap;
+  /* white-space: nowrap; */
   margin-right: 3px;  /* ← 들여쓰기 */
 
 }

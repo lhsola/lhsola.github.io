@@ -74,7 +74,7 @@ function Location() {
         </div>
         <div className='info-detail'>
           <div>♥디토 레스토랑 건물 지하 1,2층</div>
-          <div className='info-detail-desc'>→병원과 편의점 사이 골목에 입구가있습니다.</div>
+          <div className='info-detail-desc'>→ 올바로병원과 세븐일레븐 사이 골목에 입구가있습니다.</div>
           {/* <div>&nbsp;&nbsp;&nbsp;&nbsp;입구가 있습니다.</div> */}
         </div>
         <div className='info-item'>
@@ -111,7 +111,6 @@ function Location() {
                 <img  src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapBusBB}/>
               </div>
             </div>
-
           </div>
         </div>
         {/* <div className='info-detail'>
