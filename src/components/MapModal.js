@@ -6,7 +6,6 @@ import busIcon from '../images/bus.png';
 import { TbBoxPadding } from 'react-icons/tb';
 import flower from '../images/flower.png'
 import ContactModal from '../components/ContactModal';
-import mapIcon from '../images/map_icon.png';
 
 function Location() {
   const mapRef = useRef(null);
@@ -29,25 +28,27 @@ function Location() {
   }, []);
 
   const gotoNavermap = () => {
-    window.open("https://ma?p.naver.com/v5/search/서초%20디토%20레스토랑","_blank");
+    // window.open("https://map.naver.com/v5/search/서초%20디토%20레스토랑","_blank");
+    window.open("https://map.naver.com/p/directions/14138432.668936,4507888.1255366,%EC%84%9C%EC%B4%88%EC%97%AD%202%ED%98%B8%EC%84%A0,13479410,PLACE_POI/14138047.3699145,4507038.6023586,%EB%94%94%ED%86%A0,1216994650,PLACE_POI/-/walk?c=16.00,0,0,0,dh","_blank");
+
   }
 
-  const gotoNavermapWalkSC = () => {
-    window.open("https://map.naver.com/p/directions/14138432.668936,4507888.1255366,%EC%84%9C%EC%B4%88%EC%97%AD%202%ED%98%B8%EC%84%A0,13479410,PLACE_POI/14138047.3699145,4507038.6023586,%EB%94%94%ED%86%A0,1216994650,PLACE_POI/-/walk?c=16.00,0,0,0,dh","_blank");
-  }
- const gotoNavermapBusSC = () => {
-    window.open("https://map.naver.com/p/directions/14138432.668936,4507888.1255366,%EC%84%9C%EC%B4%88%EC%97%AD%202%ED%98%B8%EC%84%A0,13479410,PLACE_POI/14138047.3699145,4507038.6023586,%EB%94%94%ED%86%A0,1216994650,PLACE_POI/-/transit?c=15.00,0,0,0,dh");
-  }
-    const gotoNavermapBusBB = () => {
-    window.open("https://map.naver.com/p/directions/14137315.6112417,4506435.2530621,%EB%B0%A9%EB%B0%B0%EC%97%AD%202%ED%98%B8%EC%84%A0,225,SUBWAY_STATION/14138047.3699145,4507038.6023586,%EB%94%94%ED%86%A0,1216994650,PLACE_POI/-/transit?c=15.00,0,0,0,dh");
-  }
- const gotoNavermapWalkBB = () => {
-    window.open("https://map.naver.com/p/directions/14137315.6112417,4506435.2530621,%EB%B0%A9%EB%B0%B0%EC%97%AD%202%ED%98%B8%EC%84%A0,225,SUBWAY_STATION/14138047.3699145,4507038.6023586,%EB%94%94%ED%86%A0,1216994650,PLACE_POI/-/walk?c=16.00,0,0,0,dh");
-  }
   const gotoKakaomap = () => {
      window.open("https://map.kakao.com/?urlX=500937.99999999907&urlY=1107307.9999999981&urlLevel=3&itemId=1706770960&q=%EB%94%94%ED%86%A0%20%EC%84%9C%EC%B4%88%EC%A0%90&srcid=1706770960&map_type=TYPE_MAP","_blank");
   }
   
+  //모달
+   const [isModalOpen, setIsModalOpen] = useState(false);
+    
+    const openModal = () => {
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+
+
   return (
     <div className='container'>
       {/* <img src={flower} className='flower' alt='flower'/> */}
@@ -81,48 +82,16 @@ function Location() {
           <img src={busIcon} alt="bus" className="info-icon"/>
           <span>대중교통 이용시</span>
         </div>
-        <div className='info-detail'>  
-          <div className='display-flex-align-center' >
-            <div>♥서초역 4번출구 *도보 12분*</div>
-            <img  src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapWalkSC}/>
-          </div>   
-          <div className='display-flex-align-center'>
-            <div class="grid-box">
-              <div class="grid-top">
-                ♥서초역 5번출구 → *서초13*(2정거장)
-              </div>
-              <div class="grid-bottom-left"> → "더미켈란아파트역"하차 </div>
-              <div class="grid-bottom-right">
-                <img  src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapBusSC}/>
-              </div>
-            </div>
-          </div>     
-          <div className='display-flex-align-center' >
-            <div> ♥방배역 4번출구 *도보 12분*</div>
-            <img src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapWalkBB}/>
-          </div>
-          <div className='display-flex-align-center' >
-            <div class="grid-box">
-              <div class="grid-top">
-                ♥방배역 1번출구 → *서초13*(3정거장)
-              </div>
-              <div class="grid-bottom-left"> → "더미켈란아파트역"하차 </div>
-              <div class="grid-bottom-right">
-                <img  src={mapIcon} alt="walk" className="info-icon-map" onClick={gotoNavermapBusBB}/>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        {/* <div className='info-detail'>
-          <div className='display-flex-align-center'>
-            <div>♥서초역 4번출구 도보 12분</div>
-            <div><button className='mpa__btn-contact' onClick={gotoNavermapWalk}>지도</button></div>
-          </div>
+        <div className='info-detail'>
+          <div>♥서초역 4번출구 도보 12분</div>
+          <div><button className='invitation__btn-contact' onClick={openModal}>지도보기</button></div>
+          {isModalOpen && (
+          <ContactModal closeModal={closeModal}/>
+          )}
           <div>♥서초역 5번출구 서초13(마을버스)승차 → 2정거장이동 "더미켈란아파트역"하차</div>
           <div>♥방배역 4번출구 도보 12분 </div>
           <div>♥방배역 1번출구 서초13(마을버스)승차 → 3정거장이동 "더미켈란아파트역"하차</div>
-        </div> */}
+        </div>
       </div>
     </div>
   )

@@ -65,16 +65,46 @@
   margin-right: 5px;
 }
 
-.info-detail {
-  margin-left: 15px;  /* ← 들여쓰기 */
+.info-icon-map {
+  width: 25px; /* 클릭 영역 확보를 위해 기존 20px에서 25px로 키움 */
+  height: 25px;
+  cursor: pointer;
+  margin-left: 5px;
 }
 
+.info-detail {
+  margin-left: 10px;  /* ← 들여쓰기 */
+}
 
 .info-detail-desc {
   margin-left: 3px;  /* ← 들여쓰기 */
   white-space: nowrap;
+  margin-right: 3px;  /* ← 들여쓰기 */
+
 }
 
-.bold {
-    font-weight: bold;
+  .display-flex-align-center {
+    display: flex;
+    align-items: left; /* 세로 중앙 정렬 */
+}
+
+
+.grid-box {
+  width: 300px;         /*  전체 너비 */
+  height: 50px;         /* 전체 높이 */
+  display: grid;
+  grid-template-rows: 1fr 1fr;   /* 위 1칸 / 아래 1칸 */
+  grid-template-columns: 0.7fr 0.3fr;/* 아래 2칸 */
+}
+
+.grid-top {
+  grid-column: 1 / 3;     /* 위 칸은 두 열 합치기 */
+}
+
+.grid-bottom-left {
+  margin-left: 3px;
+}
+
+.grid-bottom-right {
+  margin-left: -12px;
 }
