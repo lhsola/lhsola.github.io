@@ -2,7 +2,7 @@ import React from 'react'
 
 function Submit({openModal}) {
   return (
-    <div className='submit'>
+    <div className='bc-pink submit'>
       <div className='submit__title'>참석 의사 전달</div>
         <div className='submit__text'>
             <div>축하의 마음으로 참석해주시는</div>

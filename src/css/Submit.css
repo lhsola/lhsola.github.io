@@ -1,5 +1,5 @@
 .submit {
-    /* margin-top: 50px; */
+    margin-top: 0px;
     border-radius: 5px;
     /* border: 2px solid rgb(248, 153, 153); */
     padding: 20px 0;
@@ -21,12 +21,13 @@
 
 .submit__btn {
     font-family: 'GangwonEdu';
-    font-size: x-large;
-    background: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+    margin-top: 0px;
+    border: 1px solid rgb(134, 128, 128);
+    background-color: transparent;
     border-radius: 30px;
-    padding: 10px 0;
-    width: 300px;
+    padding: 10px 50px;
+    color: rgb(95, 25, 25);
 }
 
 .submit__btn:hover {

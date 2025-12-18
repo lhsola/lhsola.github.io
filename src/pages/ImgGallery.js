@@ -83,7 +83,7 @@ function ImgGallery() {
 
   
   return (
-    <div className='bc-pink container'>
+    <div className='container'>
       <ImageGallery items={images} />
     </div>
   )

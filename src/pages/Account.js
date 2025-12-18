@@ -46,7 +46,7 @@ function ContactButton({ person, account, kakaopay }) {
       ];
   
     return (
-      <div className="container">
+      <div className="bc-pink container">
         <img src={flower} className="flower" alt="flower"/>
         <div className='contact__title'>마음 전하는 곳</div>
         <div className="contact__boxes">

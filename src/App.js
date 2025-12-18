@@ -21,7 +21,7 @@ import Location from './pages/Location.js';
 import ImgGallery from './pages/ImgGallery.js';
 import Footer from './components/Footer.js';
 import SurveyModal from './components/SurveyModal.js';
-// import Submit from './pages/Submit.js';
+import Submit from './pages/Submit.js';
 import Comment from './pages/Comment.js';
 import Quiz from './pages/Quiz.js';
 import ShareButton from "./components/ShareButton";
@@ -48,8 +48,8 @@ function App() {
       <ShareButton />
       <Invitation />
       <Calendar />
+      <Submit openModal={openModal}/>
       <ImgGallery />
-      {/* <Submit openModal={openModal}/> */}
       {/* <Quiz/> */}
       <Contact />
       <Comment />
