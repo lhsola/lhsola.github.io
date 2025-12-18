@@ -58,29 +58,82 @@ function SurveyModal({ closeModal }) {
             <label>이름</label>
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
           </div>
-          <div className='survey__input'>
+          {/* <div className='survey__input'>
             <label>연락처</label>
             <input type="text" value={contact} onChange={(e) => setContact(e.target.value)} />
-          </div>
+          </div> */}
           <div className='survey__input'>
             <label>참석여부</label>
-                <select value={attendance} onChange={(e) => setAttendance(e.target.value)}>
+            <div className="radio-group">
+                <label className="radio-item">
+                  <input
+                    type="radio" 
+                    value="참석" 
+                    checked={attendance === '참석'} 
+                    onChange={(e) => setAttendance(e.target.value)} 
+                  /> 참석
+                </label>
+                <label className="radio-item">
+                  <input 
+                    type="radio" 
+                    value="불참" 
+                    checked={attendance === '불참'} 
+                    onChange={(e) => setAttendance(e.target.value)} 
+                  /> 불참
+                </label>
+                <label className="radio-item">
+                  <input 
+                    type="radio" 
+                    value="미정" 
+                    checked={attendance === '미정'} 
+                    onChange={(e) => setAttendance(e.target.value)} 
+                  /> 미정
+                </label>
+            </div>
+                {/* <select value={attendance} onChange={(e) => setAttendance(e.target.value)}>
                     <option value="참석">참석</option>
                     <option value="불참">불참</option>
                     <option value="미정">미정</option>
-                </select>
+                </select> */}
           </div>
           <div className='survey__input'>
             <label>참석인원</label> 
             <input type="number" min="1" value={guests} placeholder='본인 포함 총 참석인원' onChange={(e) => setGuests(e.target.value)} />
           </div>
-          <div className='survey__input'>
+          <div className='survey__input'>       
             <label>식사여부</label> 
-            <select value={meal} onChange={(e) => setMeal(e.target.checked)}>
-                    <option value="참석">식사함</option>
-                    <option value="불참">식사안함</option>
-                    <option value="미정">미정</option>
-            </select>
+            <div className="radio-group">
+                <label className="radio-item">
+                  <input
+                    type="radio" 
+                    value="참석" 
+                    checked={meal === '참석'} 
+                    onChange={(e) => setMeal(e.target.value)} 
+                  /> 식사함
+                </label>
+                <label className="radio-item">
+                  <input 
+                    type="radio" 
+                    value="불참" 
+                    checked={meal === '불참'} 
+                    onChange={(e) => setMeal(e.target.value)} 
+                  /> 안함
+                </label>
+                <label className="radio-item">
+                  <input 
+                    type="radio" 
+                    value="미정" 
+                    checked={meal === '미정'} 
+                    onChange={(e) => setMeal(e.target.value)} 
+                  /> 미정
+                </label>
+              {/* </div> */}
+              {/* <select value={meal} onChange={(e) => setMeal(e.target.checked)}>
+                      <option value="참석">식사함</option>
+                      <option value="불참">식사안함</option>
+                      <option value="미정">미정</option>
+              </select> */}
+            </div>
           </div>
           <div className='survey__agree'>
             <div className='survey__agree_title'>

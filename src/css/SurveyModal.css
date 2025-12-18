@@ -66,6 +66,13 @@
     width: 100px;
 }
 
+
+.survey__input label {
+    display: inline-block;
+    width: 100px;
+}
+
+
 .survey__input input {
     font-family: 'GangwonEdu';
     width: 175px;
@@ -79,6 +86,7 @@
     padding: 10px;
     font-size: large;
 }
+
 
 .survey__btn-close {
     position: absolute;
@@ -125,6 +133,35 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
+/*---------------------------------*/
+/* 1. 식사여부 라디오 버튼들을 담는 컨테이너 */
+.radio-group {
+    display: inline-flex; /* 라벨 옆에 나란히 오도록 설정 */
+    align-items: center;
+    gap: 10px;           /* 항목 간의 간격 */
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
 
+/* 2. 개별 라디오 항목 (기존 .survey__input label의 100px 제한을 해제) */
+.survey__input .radio-item {
+    display: flex;
+    align-items: center;
+    width: auto;         /* 고정 너비 100px 해제 */
+    cursor: pointer;
+    margin: 0;           /* 기본 마진 제거 */
+}
 
+/* 3. 라디오 버튼 자체 스타일 */
+.radio-item input[type="radio"] {
+    width: 18px;         /* 적절한 크기로 조정 */
+    height: 18px;
+    margin-right: 4px;   /* 글자와의 간격 */
+    cursor: pointer;
+}
 
+/* 4. 라디오 옆 글자 스타일 */
+.radio-item span {
+    font-size: large;    /* 다른 입력창과 크기 맞춤 */
+    white-space: nowrap; /* 글자가 꺾이지 않게 설정 */
+}
