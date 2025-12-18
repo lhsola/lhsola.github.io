@@ -19,8 +19,16 @@ function SurveyModal({ closeModal }) {
       alert("개인정보 이용 동의에 체크해주세요.");
       return;
     }
-     if (side === '' || name === '' || attendance === '') {
-      alert("항목을 입력해주세요.");
+     if (side === '' ) {
+      alert("구분을 선택해주세요.");
+      return; 
+     }
+    else if ( name === '') {
+      alert("이름을 입력해주세요.");
+      return; 
+    }
+    else if (attendance === '') {
+      alert("참석여부를 선택해주세요.");
       return; 
     }
 
