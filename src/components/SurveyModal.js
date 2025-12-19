@@ -64,7 +64,7 @@ function SurveyModal({ closeModal }) {
           </div>
           <div className='survey__input'>
             <label>이름</label>
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+            <input type="text" value={name} placeholder='이름' onChange={(e) => setName(e.target.value)} />
           </div>
           {/* <div className='survey__input'>
             <label>연락처</label>
@@ -106,7 +106,7 @@ function SurveyModal({ closeModal }) {
           </div>
           <div className='survey__input'>
             <label>참석인원</label> 
-            <input type="number" min="1" value={guests} placeholder='본인 포함 총 참석인원' onChange={(e) => setGuests(e.target.value)} />
+            <input type="text" inputmode="numeric" pattern="[0-9]*" value={guests} placeholder='본인 포함 총 참석인원' onChange={(e) => setGuests(e.target.value)} />
           </div>
           <div className='survey__input'>       
             <label>식사여부</label> 
@@ -149,7 +149,7 @@ function SurveyModal({ closeModal }) {
               </input>개인정보 수집 및 이용 동의(필수)
             </div>
             <div className='survey__agree_content'>
-              <div>항목 : 이름, 연락처</div>
+              <div>항목 : 이름</div>
               <div>보유기간: 청첩장 이용 종료 시까지</div>
             </div>
           </div>
