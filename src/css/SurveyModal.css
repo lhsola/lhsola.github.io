@@ -59,19 +59,13 @@
 .survey__input {
     margin-bottom: 10px;
     text-align: left;
+    position: relative;
 }
 
 .survey__input label {
     display: inline-block;
     width: 100px;
 }
-
-
-.survey__input label {
-    display: inline-block;
-    width: 100px;
-}
-
 
 .survey__input input {
     font-family: 'GangwonEdu';
