@@ -59,7 +59,6 @@
 .survey__input {
     margin-bottom: 10px;
     text-align: left;
-    position: relative;
 }
 
 .survey__input label {
@@ -71,7 +70,7 @@
     font-family: 'GangwonEdu';
     width: 175px;
     padding: 10px;
-    font-size: large;
+    font-size: 16px;
 }
 
 .survey__input select {
