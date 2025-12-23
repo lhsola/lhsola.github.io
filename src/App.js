@@ -48,7 +48,7 @@ function App() {
       <ShareButton />
       <Invitation />
       <Calendar />
-      <Submit openModal={openModal}/>
+      {/* <Submit openModal={openModal}/> */}
       <ImgGallery />
       {/* <Quiz/> */}
       <Contact />

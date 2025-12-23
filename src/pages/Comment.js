@@ -108,7 +108,7 @@ function Comment() {
 
 
   return (
-    <div className='container'>
+    <div className='bc-pink container'>
         <img src={flower} className='flower' alt='flower'/>
         <div className='title'>방명록</div>
         <div className='commment_content'>
