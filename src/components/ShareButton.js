@@ -26,16 +26,20 @@ function ShareButton() {
         description: "4월 25일 12시 <서초 디토레스토랑>\n서울 서초구 명달로 94",
         imageUrl: "https://lhsola.github.io/main.jpg", // ✅ 썸네일 이미지 주소
         link: {
-          mobileWebUrl: "https://lhsola.github.io",
-          webUrl: "https://lhsola.github.io",
+          mobileWebUrl: "https://mhs260425.web.app/",
+          webUrl: "https://mhs260425.web.app/",
+          // mobileWebUrl: "https://lhsola.github.io",
+          // webUrl: "https://lhsola.github.io",
         },
       },
       buttons: [
         {
           title: "모바일 청첩장 보기",
           link: {
-            mobileWebUrl: "https://lhsola.github.io",
-            webUrl: "https://lhsola.github.io",
+            // mobileWebUrl: "https://lhsola.github.io",
+            // webUrl: "https://lhsola.github.io",
+            mobileWebUrl: "https://mhs260425.web.app/",
+            webUrl: "https://mhs260425.web.app/",   
           },
         },
       ],

@@ -31,20 +31,19 @@ function ContactButton({ person, account, kakaopay }) {
     );
   }
 
-
   function Account() {
     const groom_contact = [
-      { person: "신랑 최명현", account: "우리은행 1002-123-456789", kakaopay: "https://link.kakaopay.com/__/aVjL2We" },
+      { person: "신랑 최명현", account: "우리은행 1002-462-257162", kakaopay: "https://link.kakaopay.com/__/aVjL2We" },
       // { person: "아버지 김아빠", account: "우리은행 0123456789", kakaopay: "" },
       // { person: "어머니 박엄마", account: "농협은행 0123456789", kakaopay: "" },
     ];
 
     const bride_contact = [
-        { person: "신부 이혜선", account: "우리은행 1002-634-717041" , kakaopay: "https://qr.kakaopay.com/Ej7khFk8E" },
+        { person: "신부 이혜선", account: "우리은행 1002-634-717041" , kakaopay: "https://qr.kakaopay.com/Ej7khFk8E" },   // "https://link.kakaopay.com/__/aVjL2We" 
         // { person: "아버지 이아빠", account: "기업은행 0123456789", kakaopay: ""},
         // { person: "어머니 우엄마", account: "국민은행 0123456789", kakaopay: "" },
       ];
-  // "https://link.kakaopay.com/__/aVjL2We" 
+
     return (
       <div className="container">
         <img src={flower} className="flower" alt="flower"/>
