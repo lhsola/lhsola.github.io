@@ -29,7 +29,7 @@ function Location() {
   }, []);
 
   const gotoNavermap = () => {
-    window.open("https://ma?p.naver.com/v5/search/서초%20디토%20레스토랑","_blank");
+    window.open("https://map.naver.com/v5/search/서초%20디토%20레스토랑","_blank");
   }
 
   const gotoNavermapWalkSC = () => {
