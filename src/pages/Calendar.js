@@ -50,7 +50,7 @@ function Calendar() {
         }
       };
   
-      // 1초마다 updateTimer를 호출하여 남은 시간을 업데이트
+      // 1초마다 updateTimer를 호출하여 남은 시간을 업데이트   
       const timer = setInterval(updateTimer, 1000);
   
       // 컴포넌트가 언마운트되면 타이머를 정리
@@ -58,8 +58,8 @@ function Calendar() {
     }, []);
 
   return (
-    <div className='container calendar'>
-      <img src={flower} className="flower" alt='flower'/>
+    <div className='container calendar' style={ {paddingTop: "0px"}} >
+      {/* <img src={flower} className="flower" alt='flower'/> */}
       <h3>2026년 4월 25일 토요일 12시</h3>
       <div className='calendar__line'></div>
       <div className="calendar__body">
