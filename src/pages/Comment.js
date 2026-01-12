@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import db from '../firebase-config'; // Adjust the path as necessary
 import { collection, addDoc, getDocs, doc, deleteDoc, Timestamp,query,orderBy } from 'firebase/firestore';
-import flower from '../images/flower.png'
+// import flower from '../images/flower.png'
 
 function Comment() {
     const [name, setName] = useState('');
