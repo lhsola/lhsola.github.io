@@ -74,7 +74,7 @@
 }
 
 .info-icon-map {
-  width: 30px; /* 클릭 영역 확보를 위해 기존 20px에서 25px로 키움 */
+  width: 40px; /* 클릭 영역 확보를 위해 기존 20px에서 25px로 키움 */
   height: 30px;
   cursor: pointer;
   margin-left: 7px;
@@ -121,5 +121,5 @@
 }
 
 .grid-bottom-right {
-  margin-left: -12px;
+  margin-left: -18px;
 }
