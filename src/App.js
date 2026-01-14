@@ -44,9 +44,11 @@ function App() {
     <div className="App">
       {isModalOpen && <SurveyModal closeModal={closeModal} />}
       <Cover/>
-      <Location />
-      <ShareButton />
       <Invitation />
+      <div className="bc-pink">
+      <Location />
+      <ShareButton />  
+      </div>
       <Calendar />
       {/* <Submit openModal={openModal}/> */}
       <ImgGallery />

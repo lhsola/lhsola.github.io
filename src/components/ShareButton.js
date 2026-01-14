@@ -47,7 +47,7 @@ function ShareButton() {
   };
 
   return (
-    <button
+    <button 
       onClick={shareKakao}
       style={{
         backgroundColor: "#FEE500",

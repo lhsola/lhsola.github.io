@@ -3,8 +3,8 @@ import naverMapIcon from '../images/naver.webp';
 import kakaoMapIcon from '../images/kakao.png';
 import carIcon from '../images/car.png';
 import busIcon from '../images/bus.png';
-import { TbBoxPadding } from 'react-icons/tb';
-import flower from '../images/flower.png'
+// import { TbBoxPadding } from 'react-icons/tb';
+// import flower from '../images/flower.png'
 import ContactModal from '../components/ContactModal';
 
 function Location() {

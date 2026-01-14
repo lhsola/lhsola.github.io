@@ -49,7 +49,7 @@ function Location() {
   }
   
   return (
-    <div className='container'>
+    <div className='bc-pink container'>
       {/* <img src={flower} className='flower' alt='flower'/> */}
       <div className='title'>오시는 길</div>
       <div className='location__details'>
